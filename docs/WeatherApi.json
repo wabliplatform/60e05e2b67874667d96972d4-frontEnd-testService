@@ -1,0 +1,73 @@
+
+[{
+    "methodType":"POST",
+    "methodName":"createweather",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Weather"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiWeatherApi = new TempApi.WeatherApi();",
+    "importModelParameter":["let weather = new TempApi.Weather();"],
+    "modelNames":["weather"],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiWeatherApi.createweather( weather, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"DELETE",
+    "methodName":"deleteweather",
+    "returnType":{
+
+      "primitive":"true",
+      "type":"null"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiWeatherApi = new TempApi.WeatherApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiWeatherApi.deleteweather( weatherId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');/**nextFunction*/}});"
+  },{
+    "methodType":"GETALL",
+    "methodName":"getAllweather",
+    "returnType":{
+      "primitive":false,
+      "jsType":"Array",
+      "modelName":"[Weather]"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiWeatherApi = new TempApi.WeatherApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiWeatherApi.getAllweather((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"GET",
+    "methodName":"getweather",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Weather"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiWeatherApi = new TempApi.WeatherApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiWeatherApi.getweather( weatherId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"PUT",
+    "methodName":"updateweather",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Weather"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiWeatherApi = new TempApi.WeatherApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiWeatherApi.updateweather( weatherId, opts, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  }
+]
