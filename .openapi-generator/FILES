@@ -3,6 +3,9 @@
 .travis.yml
 README.md
 config.js
+docs/City.md
+docs/CityApi.json
+docs/CityApi.md
 docs/Weather.md
 docs/WeatherApi.json
 docs/WeatherApi.md
@@ -12,7 +15,9 @@ index.js
 mocha.opts
 package.json
 src/ApiClient.js
+src/api/CityApi.js
 src/api/WeatherApi.js
 src/index.js
+src/model/City.js
 src/model/Weather.js
 webpack.config.js
