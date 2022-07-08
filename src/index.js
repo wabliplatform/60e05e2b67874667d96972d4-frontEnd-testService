@@ -13,9 +13,7 @@
 
 
 import ApiClient from './ApiClient';
-import City from './model/City';
 import Weather from './model/Weather';
-import CityApi from './api/CityApi';
 import WeatherApi from './api/WeatherApi';
 
 
@@ -58,22 +56,10 @@ export {
     ApiClient,
 
     /**
-     * The City model constructor.
-     * @property {module:model/City}
-     */
-    City,
-
-    /**
      * The Weather model constructor.
      * @property {module:model/Weather}
      */
     Weather,
-
-    /**
-    * The CityApi service constructor.
-    * @property {module:api/CityApi}
-    */
-    CityApi,
 
     /**
     * The WeatherApi service constructor.
@@ -90,22 +76,10 @@ export default {
     ApiClient,
 
     /**
-     * The City model constructor.
-     * @property {module:model/City}
-     */
-    City,
-
-    /**
      * The Weather model constructor.
      * @property {module:model/Weather}
      */
     Weather,
-
-    /**
-    * The CityApi service constructor.
-    * @property {module:api/CityApi}
-    */
-    CityApi,
 
     /**
     * The WeatherApi service constructor.
